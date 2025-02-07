@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="stylesheets/lsstylsheet.css">
+        <script src="scripts/lspage.js"></script>
+        <link rel="icon" type="image/png" href="assets/logo.jpg">
+    </head>
+    <body>
+        <div class="maincontainer">
+            <div id="cover" class="module"></div>
+            <div class="module" id="login">
+                <div id="loginform">
+                <h1>Login</h1>
+                    <label for="user">Username or Email</label>
+                    <input type="email" name="user" id="username" required></input><br><br>
+ 
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="password2" required></input><br><br>
+                    <button class = "button" id="showpass2"><img width="20" height="20" src="assets/eye.png"></img></button>
+
+                    <a id="forgot" href="#">Forgot Password?</a><br>
+
+                    <a href="index.html" class = "buttonSx">Login</a><br><br>
+                    <p class="bottomtext">Create an account?<button id="signuppage">Click Here</button></p>
+                </div>
+            </div>
+            <div class="module" id="signup">
+                <div id="signupform">
+                    <h1>Sign Up</h1>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required></input><br>
+
+                    <label for="user">Username</label>
+                    <input name="user" id="username" required></input><br>
+
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="password1" required></input>
+
+                    <button class = "button" id="showpass1"><img width="20" height="20" src="assets/eye.png"></img></button><br>
+                    <label class="cpassword" for="cpass">Confirm Password</label>
+                    <input class="cpassword" type="password" name="cpass" id="cpassword" required></input><br>
+
+                    <a href="index.html" class="buttonSx">Sign Up</a><br><br>
+                    <p class="bottomtext">Already have an account?<button id="loginpage">Click Here</button></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
